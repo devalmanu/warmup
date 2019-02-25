@@ -1,4 +1,4 @@
-module.exports = function warmup(temperature) {
-  let result = 9/5*temperature + 32;
-  return result;
+module.exports = function warmup(Celsius) {
+  let Fahrenheit = 9/5*Celsius + 32;
+  return Fahrenheit;
 };
